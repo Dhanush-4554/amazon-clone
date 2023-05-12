@@ -1,0 +1,21 @@
+.alert{
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.alert h1{
+    color: red;
+    text-align: center;
+}
+.image{
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background: url(/src/components/images/upi.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
